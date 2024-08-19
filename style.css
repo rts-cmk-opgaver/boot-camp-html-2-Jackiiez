@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/* FLEX CLASSES: */
+[class*="flex"] {
+    padding:0 1%;
+}
+.flex1{
+	flex: 1;
+}
+.flex2{
+	flex: 2;
+}
+.flex3{
+	flex: 3;
+}
+.flex4{
+	flex: 4;
+}
+.flex5{
+	flex: 5;
+}
+.flex6{
+	flex: 6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+   
+}
+
+#wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+height: 1600px;
+font-family: "Open sans", sans-serif;
+}
+
+main {
+    display: grid;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
